@@ -19,9 +19,9 @@
 
 ![curl -s 'https://raw.githubusercontent.com/jlevy/the-art-of-command-line/master/README.md' | egrep -o '`\w+`' | tr -d '`' | cowsay -W50](cowsay.png)
 
-Saper usare con una certa facilità la linea di comando è spesso visto come una sorta di "sapere arcano". Anche se può sembrare, in realtà non è decisamente così: può migliorare la tua produttività e la tua flessibilità in modi che neanche immagini. Questa che stai per leggere è una selezione di trucchi e di consigli che riguardano la linea di comando, che abbiamo trovato utili lavorando con Linux. Alcune di queste nozioni sono elementari, altre molto specifiche, se non sofisticate e, a volte, oscure.
+Saper usare con una certa facilità righe di comando nel terminale è spesso visto come una sorta di "sapere arcano". Anche se può sembrare, in realtà non è decisamente così: può migliorare la tua produttività in modi che neanche immagini. Quella che stai per leggere è una selezione di trucchi e di consigli che riguardano il terminale, che abbiamo trovato utili lavorando con Linux. Alcune di queste nozioni sono elementari, altre molto specifiche, se non sofisticate e, a volte, oscure.
 
-Non c'è da preoccuparsi, comunque: la pagina che stai scorrendo non è molto lunga e non ti ruberà molto tempo. Prenderci dimestichezza, saperla usare quando necessario, te ne renderà ancora di più.
+Non c'è da preoccuparsi, comunque: la lettura di questa guida non è molto lunga e non ti ruberà molto tempo. Prenderci dimestichezza, saperla usare quando necessario, velocizzerà i tuoi processi.
 
 Questo lavoro è il risultato degli sforzi di [svariati autori e traduttori](AUTHORS.md).
 
@@ -32,7 +32,7 @@ Una buona parte di ciò che leggi è [apparsa](http://www.quora.com/What-are-som
 
 Obiettivi:
 
-- Questa guida è adatta sia a principianti che ad utenti con più conoscenze. Ci proponiamo di seguire tre principi fondamentali: *ampiezza* (cerchiamo di includere tutto quello che serve), *specificità* (dando degli esempi concreti) e *brevità* (evitando tutto il futile e il superfluo). Ogni consiglio viene dato con l'obiettivo di salvare del tempo prezioso.
+- Questa guida è adatta sia per principianti che per utenti più esperti. Ci proponiamo di seguire tre principi fondamentali: *ampiezza* (cerchiamo di includere tutto quello che serve), *specificità* (dando degli esempi concreti) e *brevità* (evitando tutto il futile e il superfluo). Ogni consiglio viene dato con l'obiettivo di salvare del tempo prezioso.
 - Questa guida è stata scritta per Linux, con alcune eccezioni per che abbiamo riportato nella sezione "[OS X](#os-x-only)". In ogni caso, molti dei consigli che vedrai si applicano tranquillamente ad altri sistemi operativi Unix e a MacOS.
 - Il focus principale sarà su interactive Bash, nonostante non sia esclusivamente così.
 - Verranno inclusi comandi "base" Unix, ma anche altri che necessiteranno di installazioni separate.
@@ -45,7 +45,7 @@ Note:
 
 ## Le Basi
 
-- Impara le basi di Bash. Usa `man bash` e cerca almeno di scorrere velocemente l'intero scritto. Non è troppo lungo e neanche difficile da seguire. Altre shell possono andare bene, ma Bash è molto potente e sempre disponibile (impararne una sola tra zsh, fish e così via, per quanto ti possa tentare, ti darà problemi a lungo termine, lavorando su altre piattaforme).
+- Impara le basi di Bash. Usa `man bash` e cerca almeno di scorrere velocemente tutto il testo scritto. Non è troppo lungo e neanche difficile da seguire. Altre shell possono andare bene, ma Bash è molto potente e sempre disponibile (impararne una sola tra zsh, fish e così via, per quanto ti possa tentare, ti darà problemi a lungo termine, lavorando su altre piattaforme).
 
 - Impara ad usare bene almeno un editor di testo. Idealmente, potresti usare Vim (`vi`), con il quale non c'è praticamente competizione per questo genere di cose (sì, anche se volessi usare Emacs, oppure un altro di quei grossi IDE, o magari l'ennesimo ultimo editor ultramoderno ed hipster).
 
